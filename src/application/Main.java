@@ -15,8 +15,11 @@ public class Main extends Application {
 		try {
 			FXMLLoader loader =new FXMLLoader();
 			VBox root = loader.load(new FileInputStream("src/application/LoanCalculatorView.fxml"));
-			Scene scene = new Scene(root,400,400);
+			NextPageController controller = (NextPageController)loader.getController();
+			controller.applicationStage = primaryStage;
 			
+			
+			Scene scene = new Scene(root,1000,500);
 			primaryStage.setScene(scene);
 			primaryStage.setTitle("Loan Calculator");
 			primaryStage.show();
