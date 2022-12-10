@@ -9,18 +9,20 @@ import javafx.scene.layout.Pane;
 public class FxmlLoader {
 private  Pane view;
 
+
 public Pane getPage(String fileName) {
 	
 		try {
-			URL fileUrl = LoanCalculatorController.class.getResource("/LoanCalculatorView/" + fileName + ".fxml");
+			URL fileUrl = Main.class.getResource("/Main/" + fileName + ".fxml");
 			if(fileUrl == null) {
 				throw new FileNotFoundException("FXML file can't be found");
 				
 			}
 			
 			
-			new FXMLLoader ();
+			new FXMLLoader();
 			view = FXMLLoader.load(fileUrl);
+			
 			
 		} catch (Exception e) {
 			System.out.println("No page " + fileName + " please check FxmlLoader.");

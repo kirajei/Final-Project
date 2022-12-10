@@ -10,7 +10,7 @@
    <top>
       <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="543.0" prefWidth="897.0" BorderPane.alignment="CENTER">
          <children>
-            <MenuButton mnemonicParsing="false" text="MenuButton" translateX="-200.0">
+            <MenuButton mnemonicParsing="false" text="MenuButton" translateX="-335.0" translateY="-200.0">
               <items>
                 <MenuItem mnemonicParsing="false" onAction="#goToLA" text="Find the Loan Amount" />
                 <MenuItem mnemonicParsing="false" onAction="#goToIR" text="Find the Interest Rate" />

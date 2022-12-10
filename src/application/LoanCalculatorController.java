@@ -35,7 +35,8 @@ public class LoanCalculatorController {
     	
     	newPage.getChildren().addAll(goBack);    	
     	Scene nextPage = new Scene(newPage);    	
-    	applicationStage.setScene(nextPage);    	
+    	applicationStage.setScene(nextPage);
+    	
 
     }
 
