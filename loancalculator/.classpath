@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/javafx19">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/jayan/Downloads/openjfx-19_windows-x64_bin-sdk/javafx-sdk-19/lib/javafx.controls.jar" rootpath="." sourcepath="C:/Users/jayan/Downloads/openjfx-19_windows-x64_bin-sdk/javafx-sdk-19/lib/src.zip">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+		<accessrules>
+			<accessrule kind="accessible" pattern="javafx/*"/>
+			<accessrule kind="discouraged" pattern="com/sun/*"/>
+			<accessrule kind="discouraged" pattern="netscape/javascript/*"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/jayan/Downloads/openjfx-19_windows-x64_bin-sdk/javafx-sdk-19/lib/javafx.fxml.jar" rootpath="." sourcepath="C:/Users/jayan/Downloads/openjfx-19_windows-x64_bin-sdk/javafx-sdk-19/lib/src.zip">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+		<accessrules>
+			<accessrule kind="accessible" pattern="javafx/*"/>
+			<accessrule kind="discouraged" pattern="com/sun/*"/>
+			<accessrule kind="discouraged" pattern="netscape/javascript/*"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/jayan/Downloads/openjfx-19_windows-x64_bin-sdk/javafx-sdk-19/lib/javafx.base.jar" rootpath="." sourcepath="C:/Users/jayan/Downloads/openjfx-19_windows-x64_bin-sdk/javafx-sdk-19/lib/src.zip">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+		<accessrules>
+			<accessrule kind="accessible" pattern="javafx/*"/>
+			<accessrule kind="discouraged" pattern="com/sun/*"/>
+			<accessrule kind="discouraged" pattern="netscape/javascript/*"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/jayan/Downloads/openjfx-19_windows-x64_bin-sdk/javafx-sdk-19/lib/javafx.graphics.jar" rootpath="." sourcepath="C:/Users/jayan/Downloads/openjfx-19_windows-x64_bin-sdk/javafx-sdk-19/lib/src.zip">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+		<accessrules>
+			<accessrule kind="accessible" pattern="javafx/*"/>
+			<accessrule kind="discouraged" pattern="com/sun/*"/>
+			<accessrule kind="discouraged" pattern="netscape/javascript/*"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
